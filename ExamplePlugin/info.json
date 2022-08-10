@@ -1,0 +1,8 @@
+{
+	"name": "ExamplePlugin",
+	"version": "0.1.0",
+	"author": "BackSeatGamer",
+	"desc": "I am an example plugin. Feel free to change anything you like! Enjoy!",
+	"url": "https://backseatgamer.pythonanywhere.com/",
+	"proxy_version": "0.5.1"
+}
