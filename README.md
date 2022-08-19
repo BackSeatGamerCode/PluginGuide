@@ -36,14 +36,14 @@ Note that if you are using an IDE such as PyCharm, it will not recognize functio
 A reward is a dictionary with the following format. Note that dict values are used to describe the real value which could be found.
 ```json
 {
-	"available_in": "the datetime when the reward will become availible again (or None if it has not been used)",
+	"available_in": "the datetime when the reward will become available again (or None if it has not been used)",
 	"command": "the command to execute",
-	"cooldown": "the cooldown between uses of the command",
+	"cooldown": "the cool down between uses of the command",
 	"enabled": "1 if it is enabled, or 0 if it is disabled",
 	"id": "the reward ID",
 	"last_guest": "The ID of the guest who last used the reward, or None if it has never been used",
 	"last_used": "The datetime the reward was last used, or 0001-01-01T01:01:01 if it has never been used",
-	"min_cooldown": "the smallest cooldown allowed to be set for the reward",
+	"min_cooldown": "the smallest cool down allowed to be set for the reward",
 	"name": "the display name of the reward",
 	"price": "the cost of using the reward",
 	"single_use": "if the reward can only be used once per user"
