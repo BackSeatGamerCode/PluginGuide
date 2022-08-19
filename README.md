@@ -3,6 +3,8 @@ The guide to creating a custom BackSeatGamer Reverse Proxy plugin
 
 Note that calls to `print` are automatically routed to the ReverseProxy's console, and not STDOUT
 
+Plugins can either be a directory or .zip file. The proxy has a built-in system to package a plugin to .zip format. Directories are recommended for development whereas .zip is recommended for distribution.
+
 ## Events
 TODO
 
