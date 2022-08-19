@@ -6,7 +6,12 @@ Note that calls to `print` are automatically routed to the ReverseProxy's consol
 Plugins can either be a directory or .zip file. The proxy has a built-in system to package a plugin to .zip format. Directories are recommended for development whereas .zip is recommended for distribution.
 
 ## Events
-TODO
+Define any of these functions in your plugin to take advantage of their functionality
+- `on_start()` - Called whenever the plugin starts or is reloaded
+- `on_close()` - Called when the plugin is unloaded or the session ends
+- `on_command(command, name, guest)` - Called when a guest redeems a reward
+- `on_console_clear()` - Called when the console is cleared
+- `on_rewards_pull(rewards)` - Called when the user updates the rewards list. See the **Rewards** section for the structure of a reward. 
 
 ## Functions
 Note that if you are using an IDE such as PyCharm, it will not recognize function calls and will flag them as errors. We are working on a solution.
