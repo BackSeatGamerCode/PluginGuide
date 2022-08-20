@@ -5,6 +5,9 @@ Note that calls to `print` are automatically routed to the ReverseProxy's consol
 
 Plugins can either be a directory or .zip file. The proxy has a built-in system to package a plugin to .zip format. Directories are recommended for development whereas .zip is recommended for distribution.
 
+## Premade Plugins
+You can take a look at our list of [Premade Plugins](https://github.com/BackSeatGamerCode/PluginGuide/tree/main/plugins) to try out, or view the code and modify for any use (free or commercial). No attribution necessary. All plugins are licensed under MIT license. Enjoy!
+
 ## Events
 Define any of these functions in your plugin to take advantage of their functionality
 - `on_start()` - Called whenever the plugin starts or is reloaded
